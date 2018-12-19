@@ -2,12 +2,11 @@ html {
       box-sizing: border-box;
       margin: 0;
       padding: 0;
-
+      font-family: 'La Belle Aurore', cursive;
 }
     
 *, *:before, *:after {
     box-sizing: inherit;
-    font-family: 'La Belle Aurore', cursive;
 }
 
 .container {
@@ -20,6 +19,7 @@ html {
     font-size: 75px;
     text-align: center;
     margin: 10px;
+    height: 100px;
 }
 
 img {
@@ -39,7 +39,7 @@ p {
 button {
     display: flex;
     justify-content: center;
-
+    font-family: 'La Belle Aurore', cursive;
     background: #eb94d0;
     background-image: -webkit-linear-gradient(top, #eb94d0, #2079b0);
     background-image: -moz-linear-gradient(top, #eb94d0, #2079b0);
@@ -59,7 +59,7 @@ button {
     text-decoration: none;
     text-align:center;
     margin:auto;
-    margin-top: 50px;
+    margin-top: 35px;
 }
 
 button:hover {
@@ -75,6 +75,11 @@ button:hover {
 button:focus {outline:0;}
 
 footer {
-    margin-top: 50px;
+    margin-top: 35px;
     text-align: center;
+    font-family: monospace;
+}
+
+footer a:visited {
+    
 }
